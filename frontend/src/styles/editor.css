@@ -1,0 +1,82 @@
+/* Editor Styles */
+.editor-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.editor-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: white;
+  border-bottom: 2px solid #e0e0e0;
+  gap: 1rem;
+}
+
+.editor-title {
+  flex: 1;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0.5rem;
+  border: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s;
+}
+
+.editor-title:focus {
+  outline: none;
+  border-bottom-color: #667eea;
+}
+
+.editor-actions {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.active-users {
+  padding: 0.5rem 1rem;
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+.editor-content {
+  flex: 1;
+  padding: 1.5rem;
+  overflow-y: auto;
+}
+
+.ql-container {
+  font-size: 1rem;
+  font-family: inherit;
+  height: 100%;
+}
+
+.ql-editor {
+  min-height: 400px;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 8px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .editor-header {
+    flex-wrap: wrap;
+  }
+
+  .editor-title {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+
+  .editor-actions {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
