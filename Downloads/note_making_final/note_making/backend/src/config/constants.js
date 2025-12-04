@@ -1,0 +1,32 @@
+/**
+ * Application constants
+ */
+
+const ROLES = {
+  USER: 'USER',
+  ADMIN: 'ADMIN',
+};
+
+const PERMISSIONS = {
+  VIEW: 'VIEW',
+  COMMENT: 'COMMENT',
+  EDIT: 'EDIT',
+};
+
+const NOTIFICATION_TYPES = {
+  NOTE_SHARED: 'NOTE_SHARED',
+  NOTE_EDITED: 'NOTE_EDITED',
+  NOTE_COMMENTED: 'NOTE_COMMENTED',
+};
+
+const NOTIFICATION_STATUS = {
+  UNREAD: 'UNREAD',
+  READ: 'READ',
+};
+
+module.exports = {
+  ROLES,
+  PERMISSIONS,
+  NOTIFICATION_TYPES,
+  NOTIFICATION_STATUS,
+};
