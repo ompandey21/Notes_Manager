@@ -378,4 +378,4 @@ MIT
 ## Support
 
 For issues and questions, please contact the development team.
-made with ❤️ by the Collaborative Notes Application Team.
+feature-om-notes-model-group-share-api![alt text](<WhatsApp Image 2025-12-04 at 13.07.48.jpeg>)
